@@ -1,3 +1,5 @@
+## Write a short comment describing this function
+#This function stores the matrix passed by parameter
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y) {
@@ -14,7 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+#This function returns the inverse of a matrix passed by parameter in the above function 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
   m <- x$getsolve()
